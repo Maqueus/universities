@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site-Teste Universade">
+    <meta name="author" content="Matheus Pereira Damasceno">
+    <meta name="keywords" content="Univerdade, Proa, Html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-anhanguera.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/272d4b0cc0.js" crossorigin="anonymous"></script>
+    <title>Anhanguera</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/cabeçalho.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- courses -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                    unde
+                    sed minima tenetur corporis necessitatibus facilis. Optio, obcaecati! Cum laudantium hic beatae
+                    culpa
+                    adipisci, aliquid minima facere?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                    unde
+                    sed minima tenetur corporis necessitatibus facilis. Optio, obcaecati! Cum laudantium hic beatae
+                    culpa
+                    adipisci, aliquid minima facere?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                    unde
+                    sed minima tenetur corporis necessitatibus facilis. Optio, obcaecati! Cum laudantium hic beatae
+                    culpa
+                    adipisci, aliquid minima facere?</p>
+            </div>
+        </div>
+    </section>
+<!-- facilities -->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                unde
+                sed minima tenetur corporis necessitatibus facilis.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                unde
+                sed minima tenetur corporis necessitatibus facilis.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae voluptates sapiente
+                unde
+                sed minima tenetur corporis necessitatibus facilis.</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit. Impedit repudiandae voluptates sapiente unde
+            sed minima tenetur corporis necessitatibus facilis.<br> Optio, obcaecati! Cum laudantium hic beatae
+            culpa
+            adipisci, aliquid minima facere?</p>
+        <div class="icons">
+            <a href ="https://www.facebook.com/matheusqwertyu/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/theus_dmascno/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Maqueus"><i class="fab fa-github"></i></a>
+
+
+        </div>
+        <p>Made with by Matheus Damasceno</p>
+    </section>
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
